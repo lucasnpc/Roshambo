@@ -12,10 +12,10 @@ import Foundation
 
 // The RPSMatch struct stores the results of a match.
 // Later in the course we will store multiple matches in an array, so users can track their match history.
-struct RPSMatch {
+struct RPSMatch: Identifiable {
     
     // MARK: Properties
-    
+    let id = UUID()
     let p1: RPS
     let p2: RPS
     

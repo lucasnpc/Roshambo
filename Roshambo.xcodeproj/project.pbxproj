@@ -17,6 +17,7 @@
 		694869812B3A7E1B0058FC8C /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869802B3A7E1B0058FC8C /* ResultView.swift */; };
 		694869832B3A7EFF0058FC8C /* RPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869822B3A7EFF0058FC8C /* RPS.swift */; };
 		694869852B3A80780058FC8C /* RPSMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869842B3A80780058FC8C /* RPSMatch.swift */; };
+		69AFA71F2B3E39730099DD2D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AFA71E2B3E39730099DD2D /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		694869802B3A7E1B0058FC8C /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		694869822B3A7EFF0058FC8C /* RPS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPS.swift; sourceTree = "<group>"; };
 		694869842B3A80780058FC8C /* RPSMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSMatch.swift; sourceTree = "<group>"; };
+		69AFA71E2B3E39730099DD2D /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				6948695A2B3A7B030058FC8C /* Assets.xcassets */,
 				6948695C2B3A7B030058FC8C /* Preview Content */,
 				694869802B3A7E1B0058FC8C /* ResultView.swift */,
+				69AFA71E2B3E39730099DD2D /* HistoryView.swift */,
 			);
 			path = Roshambo;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				694869812B3A7E1B0058FC8C /* ResultView.swift in Sources */,
+				69AFA71F2B3E39730099DD2D /* HistoryView.swift in Sources */,
 				694869832B3A7EFF0058FC8C /* RPS.swift in Sources */,
 				694869592B3A7B020058FC8C /* RPSView.swift in Sources */,
 				694869572B3A7B020058FC8C /* RoshamboApp.swift in Sources */,
