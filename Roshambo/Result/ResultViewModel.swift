@@ -1,36 +1,15 @@
 //
-//  RPSMatch.swift
+//  ResultViewModel.swift
 //  Roshambo
 //
-//  Created by Lucas Lopes on 26/12/23.
+//  Created by Lucas Lopes on 02/01/24.
 //
 
-import SwiftUI
+import Foundation
 
-struct ResultView: View {
-    @Binding var result: RPSMatch!
-    @SwiftUI.Environment(\.presentationMode) var presentationMode
-    
-    @State private var animate = false
-    
-    var body: some View {
-        
-        VStack{
-            Image(imageForMatch(result)).opacity(animate ? 1.0 : 0.2)
-            Text(messageForMatch(result))
-            Spacer().frame(height: 50)
-            Button(action: {presentationMode.wrappedValue.dismiss()}, label: {
-                Text("Play Again")
-            })
-        }.onAppear {
-            withAnimation(Animation.easeInOut(duration: 1.5)){
-                animate.toggle()
-            }
-        }
-    }
+class ResultViewModel: ObservableObject{
     
     // MARK: Messages for Match
-    
     func messageForMatch(_ match: RPSMatch) -> String {
         
         // Handle the tie
@@ -59,7 +38,6 @@ struct ResultView: View {
     }
     
     // MARK: Image for Match
-    
     func imageForMatch(_ match: RPSMatch) -> String {
         
         var name = ""
@@ -78,8 +56,4 @@ struct ResultView: View {
         }
         return name
     }
-}
-
-#Preview {
-    ResultView(result: Binding.constant(RPSMatch(p1: RPS(), p2: RPS())))
 }

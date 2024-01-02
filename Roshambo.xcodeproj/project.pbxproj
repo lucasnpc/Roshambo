@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690C39392B44A97200574190 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690C39382B44A97200574190 /* ResultViewModel.swift */; };
+		690C393A2B44A97200574190 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690C39382B44A97200574190 /* ResultViewModel.swift */; };
+		690C393C2B44AA9500574190 /* ResultViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690C393B2B44AA9500574190 /* ResultViewModelTests.swift */; };
+		690C393D2B44AC2600574190 /* RPSMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869842B3A80780058FC8C /* RPSMatch.swift */; };
+		690C393E2B44AC3400574190 /* RPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869822B3A7EFF0058FC8C /* RPS.swift */; };
 		694869572B3A7B020058FC8C /* RoshamboApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869562B3A7B020058FC8C /* RoshamboApp.swift */; };
 		694869592B3A7B020058FC8C /* RPSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869582B3A7B020058FC8C /* RPSView.swift */; };
 		6948695B2B3A7B030058FC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6948695A2B3A7B030058FC8C /* Assets.xcassets */; };
@@ -38,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		690C39382B44A97200574190 /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		690C393B2B44AA9500574190 /* ResultViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModelTests.swift; sourceTree = "<group>"; };
 		694869532B3A7B020058FC8C /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		694869562B3A7B020058FC8C /* RoshamboApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboApp.swift; sourceTree = "<group>"; };
 		694869582B3A7B020058FC8C /* RPSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSView.swift; sourceTree = "<group>"; };
@@ -79,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690C39372B44A95B00574190 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				694869802B3A7E1B0058FC8C /* ResultView.swift */,
+				690C39382B44A97200574190 /* ResultViewModel.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
 		6948694A2B3A7B020058FC8C = {
 			isa = PBXGroup;
 			children = (
@@ -102,13 +118,13 @@
 		694869552B3A7B020058FC8C /* Roshambo */ = {
 			isa = PBXGroup;
 			children = (
+				690C39372B44A95B00574190 /* Result */,
 				694869842B3A80780058FC8C /* RPSMatch.swift */,
 				694869822B3A7EFF0058FC8C /* RPS.swift */,
 				694869562B3A7B020058FC8C /* RoshamboApp.swift */,
 				694869582B3A7B020058FC8C /* RPSView.swift */,
 				6948695A2B3A7B030058FC8C /* Assets.xcassets */,
 				6948695C2B3A7B030058FC8C /* Preview Content */,
-				694869802B3A7E1B0058FC8C /* ResultView.swift */,
 				69AFA71E2B3E39730099DD2D /* HistoryView.swift */,
 			);
 			path = Roshambo;
@@ -126,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				694869672B3A7B040058FC8C /* RoshamboTests.swift */,
+				690C393B2B44AA9500574190 /* ResultViewModelTests.swift */,
 			);
 			path = RoshamboTests;
 			sourceTree = "<group>";
@@ -270,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				694869812B3A7E1B0058FC8C /* ResultView.swift in Sources */,
+				690C39392B44A97200574190 /* ResultViewModel.swift in Sources */,
 				69AFA71F2B3E39730099DD2D /* HistoryView.swift in Sources */,
 				694869832B3A7EFF0058FC8C /* RPS.swift in Sources */,
 				694869592B3A7B020058FC8C /* RPSView.swift in Sources */,
@@ -283,6 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				694869682B3A7B040058FC8C /* RoshamboTests.swift in Sources */,
+				690C393C2B44AA9500574190 /* ResultViewModelTests.swift in Sources */,
+				690C393A2B44A97200574190 /* ResultViewModel.swift in Sources */,
+				690C393D2B44AC2600574190 /* RPSMatch.swift in Sources */,
+				690C393E2B44AC3400574190 /* RPS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
