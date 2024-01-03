@@ -12,11 +12,16 @@
 		690C393C2B44AA9500574190 /* ResultViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690C393B2B44AA9500574190 /* ResultViewModelTests.swift */; };
 		690C393D2B44AC2600574190 /* RPSMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869842B3A80780058FC8C /* RPSMatch.swift */; };
 		690C393E2B44AC3400574190 /* RPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869822B3A7EFF0058FC8C /* RPS.swift */; };
+		690C39412B45915900574190 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690C39402B45915900574190 /* HistoryViewModel.swift */; };
+		690C39422B45915900574190 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690C39402B45915900574190 /* HistoryViewModel.swift */; };
+		690C39462B45945B00574190 /* HistoryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690C39452B45945B00574190 /* HistoryViewModelTests.swift */; };
+		690C39492B45950D00574190 /* RpsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690C39482B45950D00574190 /* RpsViewModel.swift */; };
+		690C394A2B45950D00574190 /* RpsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690C39482B45950D00574190 /* RpsViewModel.swift */; };
+		690C394C2B45962200574190 /* RpsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690C394B2B45962200574190 /* RpsViewModelTests.swift */; };
 		694869572B3A7B020058FC8C /* RoshamboApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869562B3A7B020058FC8C /* RoshamboApp.swift */; };
 		694869592B3A7B020058FC8C /* RPSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869582B3A7B020058FC8C /* RPSView.swift */; };
 		6948695B2B3A7B030058FC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6948695A2B3A7B030058FC8C /* Assets.xcassets */; };
 		6948695E2B3A7B030058FC8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6948695D2B3A7B030058FC8C /* Preview Assets.xcassets */; };
-		694869682B3A7B040058FC8C /* RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869672B3A7B040058FC8C /* RoshamboTests.swift */; };
 		694869722B3A7B040058FC8C /* RoshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869712B3A7B040058FC8C /* RoshamboUITests.swift */; };
 		694869742B3A7B040058FC8C /* RoshamboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869732B3A7B040058FC8C /* RoshamboUITestsLaunchTests.swift */; };
 		694869812B3A7E1B0058FC8C /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694869802B3A7E1B0058FC8C /* ResultView.swift */; };
@@ -45,13 +50,16 @@
 /* Begin PBXFileReference section */
 		690C39382B44A97200574190 /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
 		690C393B2B44AA9500574190 /* ResultViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModelTests.swift; sourceTree = "<group>"; };
+		690C39402B45915900574190 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		690C39452B45945B00574190 /* HistoryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModelTests.swift; sourceTree = "<group>"; };
+		690C39482B45950D00574190 /* RpsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RpsViewModel.swift; sourceTree = "<group>"; };
+		690C394B2B45962200574190 /* RpsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RpsViewModelTests.swift; sourceTree = "<group>"; };
 		694869532B3A7B020058FC8C /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		694869562B3A7B020058FC8C /* RoshamboApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboApp.swift; sourceTree = "<group>"; };
 		694869582B3A7B020058FC8C /* RPSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSView.swift; sourceTree = "<group>"; };
 		6948695A2B3A7B030058FC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6948695D2B3A7B030058FC8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		694869632B3A7B040058FC8C /* RoshamboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		694869672B3A7B040058FC8C /* RoshamboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboTests.swift; sourceTree = "<group>"; };
 		6948696D2B3A7B040058FC8C /* RoshamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		694869712B3A7B040058FC8C /* RoshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboUITests.swift; sourceTree = "<group>"; };
 		694869732B3A7B040058FC8C /* RoshamboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -95,6 +103,24 @@
 			path = Result;
 			sourceTree = "<group>";
 		};
+		690C393F2B45914000574190 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				69AFA71E2B3E39730099DD2D /* HistoryView.swift */,
+				690C39402B45915900574190 /* HistoryViewModel.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		690C39472B45949600574190 /* RPS */ = {
+			isa = PBXGroup;
+			children = (
+				694869582B3A7B020058FC8C /* RPSView.swift */,
+				690C39482B45950D00574190 /* RpsViewModel.swift */,
+			);
+			path = RPS;
+			sourceTree = "<group>";
+		};
 		6948694A2B3A7B020058FC8C = {
 			isa = PBXGroup;
 			children = (
@@ -118,14 +144,14 @@
 		694869552B3A7B020058FC8C /* Roshambo */ = {
 			isa = PBXGroup;
 			children = (
+				690C39472B45949600574190 /* RPS */,
+				690C393F2B45914000574190 /* History */,
 				690C39372B44A95B00574190 /* Result */,
 				694869842B3A80780058FC8C /* RPSMatch.swift */,
 				694869822B3A7EFF0058FC8C /* RPS.swift */,
 				694869562B3A7B020058FC8C /* RoshamboApp.swift */,
-				694869582B3A7B020058FC8C /* RPSView.swift */,
 				6948695A2B3A7B030058FC8C /* Assets.xcassets */,
 				6948695C2B3A7B030058FC8C /* Preview Content */,
-				69AFA71E2B3E39730099DD2D /* HistoryView.swift */,
 			);
 			path = Roshambo;
 			sourceTree = "<group>";
@@ -141,8 +167,9 @@
 		694869662B3A7B040058FC8C /* RoshamboTests */ = {
 			isa = PBXGroup;
 			children = (
-				694869672B3A7B040058FC8C /* RoshamboTests.swift */,
 				690C393B2B44AA9500574190 /* ResultViewModelTests.swift */,
+				690C39452B45945B00574190 /* HistoryViewModelTests.swift */,
+				690C394B2B45962200574190 /* RpsViewModelTests.swift */,
 			);
 			path = RoshamboTests;
 			sourceTree = "<group>";
@@ -287,12 +314,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				694869812B3A7E1B0058FC8C /* ResultView.swift in Sources */,
+				690C39492B45950D00574190 /* RpsViewModel.swift in Sources */,
 				690C39392B44A97200574190 /* ResultViewModel.swift in Sources */,
 				69AFA71F2B3E39730099DD2D /* HistoryView.swift in Sources */,
 				694869832B3A7EFF0058FC8C /* RPS.swift in Sources */,
 				694869592B3A7B020058FC8C /* RPSView.swift in Sources */,
 				694869572B3A7B020058FC8C /* RoshamboApp.swift in Sources */,
 				694869852B3A80780058FC8C /* RPSMatch.swift in Sources */,
+				690C39412B45915900574190 /* HistoryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,10 +329,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694869682B3A7B040058FC8C /* RoshamboTests.swift in Sources */,
+				690C39422B45915900574190 /* HistoryViewModel.swift in Sources */,
 				690C393C2B44AA9500574190 /* ResultViewModelTests.swift in Sources */,
 				690C393A2B44A97200574190 /* ResultViewModel.swift in Sources */,
+				690C394C2B45962200574190 /* RpsViewModelTests.swift in Sources */,
 				690C393D2B44AC2600574190 /* RPSMatch.swift in Sources */,
+				690C39462B45945B00574190 /* HistoryViewModelTests.swift in Sources */,
+				690C394A2B45950D00574190 /* RpsViewModel.swift in Sources */,
 				690C393E2B44AC3400574190 /* RPS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
